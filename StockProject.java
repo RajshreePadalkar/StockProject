@@ -106,7 +106,6 @@ class StockGame extends Thread {
     public void run() {
 
 	for (String a : task) {
-////	    System.out.print(a);
 	    String[] arr = a.split(",");
 	    String Type = arr[0].trim();
 	    int num = Integer.parseInt(arr[1].trim());
@@ -183,47 +182,3 @@ public class StockProject {
 	}
     }
 }
-
-//try
-//{
-// while((i=fileName.read())!=-1)
-////     fw.write("BUY,5 SELL,3 BUY,16 BUY,4 SELL,2");
-//}finally
-//{
-//  fileName.close();
-//}
-
-//  public void SetData()
-//  {
-//	try {
-//	    FileWriter file2 = new FileWriter(
-//		    "C:\\Users\\DELL\\eclipse-workspace\\SundayProjects\\src\\com\\gurukul\\stockBuy\\TraderTwoMoves.txt");
-//	    file2.write("BUY,8\nBUY,10\nBUY,7\nSELL,9");
-//	    System.out.print("okay now bye");
-//	    file2.close();
-//	} catch (IOException e) {
-//	    // TODO Auto-generated catch block
-//	    e.printStackTrace();
-//	}
-//	
-//	
-//  }
-// 
-//try {
-//String msg = "Hello";
-//BufferedReader reader = new BufferedReader(new FileReader(fileName));
-//String line;
-//while ((line = reader.readLine()) != null) {
-//	System.out.println(line);
-//	String info[] = line.split(",");
-//	task.add(line);
-//	if (info.length != 2) {
-//	    System.out.println("Error, invalid input!");
-//	    continue;
-//	}
-//	String Type = info[0].trim();
-//	int num1 = Integer.parseInt(info[1].trim());
-//	String s=info[1].trim();
-//	
-//}
-//
